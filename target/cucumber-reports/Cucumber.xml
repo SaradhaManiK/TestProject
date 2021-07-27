@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="6.036051">
+<testcase classname="In order to remember the things I want to do, as a ToDo MVC user, I want to manage my todo list" name="Enter the todo list" time="5.741043">
+<system-out><![CDATA[Given the user is in homepage...............................................passed
+When the user enters the data...............................................passed
+Then the user verifies the data is updated..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="In order to remember the things I want to do, as a ToDo MVC user, I want to manage my todo list" name="Check for Active and completed tab" time="0.295008">
+<system-out><![CDATA[Given the user retrieves the list count and check it matches................passed
+And the user clicks Active tab..............................................passed
+When the user clicks completed tab..........................................passed
+Then verifies the data is empty.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
